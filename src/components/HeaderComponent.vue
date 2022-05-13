@@ -3,20 +3,13 @@
   <header>
 
     <div>
-      <img src="../assets/img/dc-logo.png" alt="">
+      <img style="cursor:pointer" src="../assets/img/dc-logo.png" alt="">
     </div>
 
     <ul>
-      <li><a href="#">characters</a></li>
-      <li><a class="active" href="#">comics</a></li>
-      <li><a href="#">movies</a></li>
-      <li><a href="#">tv</a></li>
-      <li><a href="#">games</a></li>
-      <li><a href="#">collectibles</a></li>
-      <li><a href="#">videos</a></li>
-      <li><a href="#">fans</a></li>
-      <li><a href="#">news</a></li>
-      <li><a href="#">shop</a></li>
+      <li v-for="(item, index) in menu" :key="`menu-${index}`">
+       <a :class="{'active':item.isActive}" href="item.href">{{item.name}}</a>
+      </li>
     </ul>
   </header>
   
@@ -24,7 +17,65 @@
 
 <script>
 export default {
-  name: "HeaderComponent"
+  name: "HeaderComponent",
+  data(){
+    return{
+      menu:[
+        {
+          name: "characters",
+          href: "#",
+          isActive: false
+        },
+        {
+          name: "comics",
+          href: "#",
+          isActive: true
+        },
+        {
+          name: "movies",
+          href: "#",
+          isActive: false
+        },
+        {
+          name: "tv",
+          href: "#",
+          isActive: false
+        },
+        {
+          name: "games",
+          href: "#",
+          isActive: false
+        },
+        {
+          name: "collectibles",
+          href: "#",
+          isActive: false
+        },
+        {
+          name: "videos",
+          href: "#",
+          isActive: false
+        },
+        {
+          name: "fans",
+          href: "#",
+          isActive: false
+        },
+        {
+          name: "news",
+          href: "#",
+          isActive: false
+        },
+        {
+          name: "shop",
+          href: "#",
+          isActive: false
+        }
+
+
+      ] 
+    }
+  }
 }
 </script>
 

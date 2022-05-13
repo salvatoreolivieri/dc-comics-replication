@@ -13,22 +13,21 @@
               <h3>dc comics</h3>
 
               <ul>
-                <li><a href="#">Link</a></li>
-                <li><a href="#">Link</a></li>
-                <li><a href="#">Link</a></li>
-                <li><a href="#">Link</a></li>
-                <li><a href="#">Link</a></li>
-                <li><a href="#">Link</a></li>
-                <li><a href="#">Link</a></li>
-                <li><a href="#">Link</a></li>
+                <li><a href="#">Characters</a></li>
+                <li><a href="#">Comics</a></li>
+                <li><a href="#">Movies</a></li>
+                <li><a href="#">TV</a></li>
+                <li><a href="#">Games</a></li>
+                <li><a href="#">Videos</a></li>
+                <li><a href="#">News</a></li>
               </ul>
 
 
               <h3>shop</h3>
 
               <ul>
-                <li><a href="#">Link</a></li>
-                <li><a href="#">Link</a></li>
+                <li><a href="#">Shop DC</a></li>
+                <li><a href="#">Shop DC Collectibles</a></li>
               </ul>
 
             </div>
@@ -38,17 +37,17 @@
               <h3>dc</h3>
 
               <ul>
-                <li><a href="#">Link</a></li>
-                <li><a href="#">Link</a></li>
-                <li><a href="#">Link</a></li>
-                <li><a href="#">Link</a></li>
-                <li><a href="#">Link</a></li>
-                <li><a href="#">Link</a></li>
-                <li><a href="#">Link</a></li>
-                <li><a href="#">Link</a></li>
-                <li><a href="#">Link</a></li>
-                <li><a href="#">Link</a></li>
-                <li><a href="#">Link</a></li>
+                <li><a href="#">Term Of Use</a></li>
+                <li><a href="#">Privacy Policy (New)</a></li>
+                <li><a href="#">Ad Choices</a></li>
+                <li><a href="#">Advertising</a></li>
+                <li><a href="#">Jobs</a></li>
+                <li><a href="#">Subscriptions</a></li>
+                <li><a href="#">Talent Workshops</a></li>
+                <li><a href="#">CPSC Certificates</a></li>
+                <li><a href="#">Rating</a></li>
+                <li><a href="#">Shop Help</a></li>
+                <li><a href="#">Contact Us</a></li>
               </ul>
 
               
@@ -59,11 +58,11 @@
               <h3>sites</h3>
 
               <ul>
-                <li><a href="#">Link</a></li>
-                <li><a href="#">Link</a></li>
-                <li><a href="#">Link</a></li>
-                <li><a href="#">Link</a></li>
-                <li><a href="#">Link</a></li>
+                <li><a href="#">DC</a></li>
+                <li><a href="#">MAD Magazine</a></li>
+                <li><a href="#">DC Kids</a></li>
+                <li><a href="#">DC Universe</a></li>
+                <li><a href="#">DC Power Visa</a></li>
               </ul>
 
             </div>
@@ -147,12 +146,12 @@ export default {
             padding: 20px 0;
 
             .column-footer-links{
-              width: calc(100% / 3);
+              width: 166px;
               height: 100%;
 
               h3{
                 text-transform: uppercase;
-                margin-top: 20px;
+                margin-top: 25px;
                 margin-bottom: 10px;
               }
 
@@ -165,6 +164,8 @@ export default {
 
               li{
                 list-style: none;
+                margin-bottom: 2px;
+
               }
 
 
@@ -176,7 +177,7 @@ export default {
             width: 50%;
             background-image: url("../assets/img/dc-logo-bg.png");
             background-position: center center; 
-            background-repeat: no-repeat;
+            background-repeat: no-repeat no-repeat;
 
           }
 
@@ -237,6 +238,7 @@ export default {
 
           img{
           margin-right: 15px;
+          cursor: pointer;
           }
 
 
