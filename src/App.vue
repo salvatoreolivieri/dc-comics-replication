@@ -8,6 +8,8 @@
 
     <BlueBar />
 
+    <FooterComponent />
+
   </section>
 
 </template>
@@ -16,6 +18,7 @@
 import HeaderComponent from './components/HeaderComponent.vue'
 import MainComponent from './components/MainComponent.vue'
 import BlueBar from './components/BlueBar.vue'
+import FooterComponent from './components/FooterComponent.vue'
 
 
 export default {
@@ -23,7 +26,8 @@ export default {
   components: {
     HeaderComponent,
     MainComponent,
-    BlueBar
+    BlueBar,
+    FooterComponent
 }
 }
 </script>
