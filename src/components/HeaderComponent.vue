@@ -33,12 +33,18 @@ export default {
 @import "../assets/style/variable.scss";
 
 header{
+  width: 80%;
+  margin: 0 auto;
+
   display: flex;
   justify-content: space-between;
   align-items: center;
   height: 100px;
-  border: 1px solid black;
   font-size: 14px;
+
+  img{
+    width: 80%;
+  }
 
   ul{
     display: flex;
@@ -52,13 +58,14 @@ header{
       text-transform: uppercase;
       color: black;
       text-decoration: none;
-      padding: 35px 0;
+      padding: 36px 0;
 
       &:hover{
         color: $primary-color;
       }
 
       &.active{
+        color: $primary-color;
         border-bottom: 6px solid $primary-color;
       }
 

@@ -4,19 +4,27 @@
 
     <header-component />
 
+    <main-component />
+
+    <BlueBar />
+
   </section>
 
 </template>
 
 <script>
 import HeaderComponent from './components/HeaderComponent.vue'
+import MainComponent from './components/MainComponent.vue'
+import BlueBar from './components/BlueBar.vue'
 
 
 export default {
   name: 'App',
   components: {
-    HeaderComponent
-  }
+    HeaderComponent,
+    MainComponent,
+    BlueBar
+}
 }
 </script>
 
