@@ -8,7 +8,7 @@
 
     <ul>
       <li v-for="(item, index) in menu" :key="`menu-${index}`">
-       <a :class="{'active':item.isActive}" href="item.href">{{item.name}}</a>
+       <a :class="{'active':item.isActive}" :href="item.href">{{item.name}}</a>
       </li>
     </ul>
   </header>

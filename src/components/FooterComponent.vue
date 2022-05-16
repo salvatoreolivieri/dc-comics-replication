@@ -128,6 +128,8 @@ export default {
     .top-footer-background{
       height: 400px;
       position: relative;
+      background-image: url("../assets/img/footer-bg.jpg");
+
 
         .top-footer-content{
           position: relative;
@@ -185,14 +187,14 @@ export default {
 
     }
 
-    .top-footer-background::before{
-          content: "";
-          position: absolute;
-          top: 0; left: 0;
-          width: 100%; height: 100%;
-          background-image: url("../assets/img/jumbotron.jpg");
-          filter: brightness(20%);
-        }
+    // .top-footer-background::before{
+    //       content: "";
+    //       position: absolute;
+    //       top: 0; left: 0;
+    //       width: 100%; height: 100%;
+    //       background-image: url("../assets/img/footer-bg.jpg");
+    //       filter: brightness(20%);
+    //     }
 
 
     //Bottom footer
